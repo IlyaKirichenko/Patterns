@@ -1,0 +1,4 @@
+C:\Users\st310-11\Documents\System\kirichenko\Patterns\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\st310-11\Documents\System\kirichenko\Patterns\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\st310-11\Documents\System\kirichenko\Patterns\obj\Debug\net8.0-windows\Patterns_MarkupCompile.cache
+C:\Users\st310-11\Documents\System\kirichenko\Patterns\obj\Debug\net8.0-windows\Patterns_MarkupCompile.lref
