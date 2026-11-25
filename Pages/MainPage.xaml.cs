@@ -24,5 +24,36 @@ namespace Patterns.Pages
         {
             InitializeComponent();
         }
+
+        private void AddButton(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new AddExpensePage());
+        }
+
+        private void ExportButton(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new ExportPage());
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            UpdateData();
+        }
+        private void UpdateData()
+        {
+            if (ExpensesListView == null || FilterComboBox.SelectedItem == null)
+                return;
+
+            string category = ((ComboBoxItem)FilterComboBox.SelectedItem).Content.ToString();
+            var filtered = ExpenseManager.Instance.GetFilterExpenses(category);
+
+            ExpensesListView.ItemsSource = filtered;
+            TotalSumTextBlock.Text = $"Итого: {ExpenseManager.Instance.GetTotalExpenses(filtered)} руб.";
+        }
+
+        private void Filter_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            UpdateData();
+        }
     }
 }

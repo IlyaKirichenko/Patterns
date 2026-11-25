@@ -1,0 +1,23 @@
+﻿<Page x:Class="Patterns.Pages.ExportPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Patterns.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="500"
+      Title="ExportPage">
+    <StackPanel Margin="20" Width="200" HorizontalAlignment="Center">
+        <TextBlock Text="Экспорт отчёта" FontSize="18" FontWeight="Bold" Margin="0,0,0,15" HorizontalAlignment="Center"/>
+
+        <TextBlock Text="Выберите формат: "/>
+        <ComboBox x:Name="FormatComboBox" Margin="0,5,0,10">
+            <ComboBoxItem Content="CSV"/>
+            <ComboBoxItem Content="JSON"/>
+        </ComboBox>
+        <StackPanel Orientation="Vertical">
+            <Button Content="Экспорт" Width="200" Click="ExportButton"/>
+            <Button Content="Назад" Width="200" Click="BackButton"/>
+        </StackPanel>
+    </StackPanel>
+</Page>

@@ -16,7 +16,7 @@ namespace Patterns
         {
             Expenses = new ObservableCollection<Expense>();
         }
-        private static ExpenseManager Instance
+        public static ExpenseManager Instance
         {
             get
             {
@@ -27,8 +27,21 @@ namespace Patterns
                 return instanse;
             }
         }
-        
-
-        
+        public void AddExpense(Expense expense)
+        {
+            Expenses.Add(expense);
+        }
+        public List<Expense> GetFilterExpenses(string category)
+        {
+            if (string.IsNullOrEmpty(category) || category == "Все")
+            {
+                return Expenses.ToList();
+            }
+            return Expenses.Where(e => e.Category == category).ToList();
+        }
+        public decimal GetTotalExpenses(IEnumerable<Expense> expenses)
+        {
+            return expenses.Sum(e => e.Sum);
+        }
     }
 }

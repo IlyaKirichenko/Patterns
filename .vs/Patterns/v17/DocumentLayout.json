@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0422\u0420\u041F\u041E\\Patterns\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D34EB1-4963-461E-96CE-C3FB8A547706}|Patterns.csproj|c:\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0442\u0440\u043F\u043E\\patterns\\pages\\exportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D34EB1-4963-461E-96CE-C3FB8A547706}|Patterns.csproj|solutionrelative:pages\\exportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D34EB1-4963-461E-96CE-C3FB8A547706}|Patterns.csproj|c:\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0442\u0440\u043F\u043E\\patterns\\pages\\exportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F6D34EB1-4963-461E-96CE-C3FB8A547706}|Patterns.csproj|solutionrelative:pages\\exportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D34EB1-4963-461E-96CE-C3FB8A547706}|Patterns.csproj|c:\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0442\u0440\u043F\u043E\\patterns\\pages\\addexpensepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D34EB1-4963-461E-96CE-C3FB8A547706}|Patterns.csproj|solutionrelative:pages\\addexpensepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D34EB1-4963-461E-96CE-C3FB8A547706}|Patterns.csproj|c:\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0442\u0440\u043F\u043E\\patterns\\expensemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D34EB1-4963-461E-96CE-C3FB8A547706}|Patterns.csproj|solutionrelative:expensemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D34EB1-4963-461E-96CE-C3FB8A547706}|Patterns.csproj|c:\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0442\u0440\u043F\u043E\\patterns\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D34EB1-4963-461E-96CE-C3FB8A547706}|Patterns.csproj|solutionrelative:pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D34EB1-4963-461E-96CE-C3FB8A547706}|Patterns.csproj|c:\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0442\u0440\u043F\u043E\\patterns\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F6D34EB1-4963-461E-96CE-C3FB8A547706}|Patterns.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExportPage.xaml",
+              "DocumentMoniker": "C:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0422\u0420\u041F\u041E\\Patterns\\Pages\\ExportPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\ExportPage.xaml",
+              "ToolTip": "C:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0422\u0420\u041F\u041E\\Patterns\\Pages\\ExportPage.xaml",
+              "RelativeToolTip": "Pages\\ExportPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-25T17:24:30.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddExpensePage.xaml.cs",
+              "DocumentMoniker": "C:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0422\u0420\u041F\u041E\\Patterns\\Pages\\AddExpensePage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\AddExpensePage.xaml.cs",
+              "ToolTip": "C:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0422\u0420\u041F\u041E\\Patterns\\Pages\\AddExpensePage.xaml.cs",
+              "RelativeToolTip": "Pages\\AddExpensePage.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:21:23.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExportPage.xaml.cs",
+              "DocumentMoniker": "C:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0422\u0420\u041F\u041E\\Patterns\\Pages\\ExportPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\ExportPage.xaml.cs",
+              "ToolTip": "C:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0422\u0420\u041F\u041E\\Patterns\\Pages\\ExportPage.xaml.cs",
+              "RelativeToolTip": "Pages\\ExportPage.xaml.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAqwD4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:17:39.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExpenseManager.cs",
+              "DocumentMoniker": "C:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0422\u0420\u041F\u041E\\Patterns\\ExpenseManager.cs",
+              "RelativeDocumentMoniker": "ExpenseManager.cs",
+              "ToolTip": "C:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0422\u0420\u041F\u041E\\Patterns\\ExpenseManager.cs",
+              "RelativeToolTip": "ExpenseManager.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:17:22.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0422\u0420\u041F\u041E\\Patterns\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0422\u0420\u041F\u041E\\Patterns\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAlwBgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T13:34:18.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0422\u0420\u041F\u041E\\Patterns\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\MainPage.xaml",
+              "ToolTip": "C:\\\u041F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u0422\u0420\u041F\u041E\\Patterns\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "Pages\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-25T13:34:18.162Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
