@@ -44,13 +44,13 @@ namespace Patterns.Pages
             if (format == "CSV")
             {
                 creator = new CsvCreator();
-                dialog.Filter = "CSV файлы (*.csv)|*.csv";
+                dialog.Filter = "CSV (*.csv)|*.csv";
                 dialog.FileName = "expenses.csv";
             }
             else
             {
                 creator = new JsonCreator();
-                dialog.Filter = "JSON файлы (*.json)|*.json";
+                dialog.Filter = "JSON (*.json)|*.json";
                 dialog.FileName = "expenses.json";
             }
 
@@ -60,7 +60,7 @@ namespace Patterns.Pages
                 {
                     IExporter exporter = creator.CreateExporter();
                     exporter.Export(expenses, dialog.FileName);
-                    MessageBox.Show("Отчёт сохранён!");
+                    MessageBox.Show("Отчёт сохранён");
                 }
                 catch (Exception ex)
                 {

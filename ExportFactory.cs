@@ -22,7 +22,7 @@ namespace Patterns
             {
                 lines.Add($"{e.Date:dd.MM.yyyy};{e.Category};{e.Sum};{e.Description}");
             }
-            File.WriteAllLines(path, lines);
+            File.WriteAllLines(path, lines, Encoding.UTF8);
         }
     }
 
@@ -30,7 +30,8 @@ namespace Patterns
     {
         public void Export(List<Expense> expenses, string path)
         {
-            string json = JsonSerializer.Serialize(expenses);
+            var option = new JsonSerializerOptions { WriteIndented = true, Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping };
+            string json = JsonSerializer.Serialize(expenses, option);
             File.WriteAllText(path, json);
         }
     }
@@ -40,13 +41,11 @@ namespace Patterns
         public abstract IExporter CreateExporter();
     }
 
-    // Фабрика для CSV
     public class CsvCreator : ExporterCreator
     {
         public override IExporter CreateExporter() => new CsvExporter();
     }
 
-    // Фабрика для JSON
     public class JsonCreator : ExporterCreator
     {
         public override IExporter CreateExporter() => new JsonExporter();

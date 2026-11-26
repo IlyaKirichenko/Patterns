@@ -1,27 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Практика\\ТРПО\\Patterns\\Patterns.csproj": {}
+    "C:\\Users\\st310-11\\Documents\\System\\kirichenko\\Patterns\\Patterns.csproj": {}
   },
   "projects": {
-    "C:\\Практика\\ТРПО\\Patterns\\Patterns.csproj": {
+    "C:\\Users\\st310-11\\Documents\\System\\kirichenko\\Patterns\\Patterns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Практика\\ТРПО\\Patterns\\Patterns.csproj",
+        "projectUniqueName": "C:\\Users\\st310-11\\Documents\\System\\kirichenko\\Patterns\\Patterns.csproj",
         "projectName": "Patterns",
-        "projectPath": "C:\\Практика\\ТРПО\\Patterns\\Patterns.csproj",
-        "packagesPath": "C:\\Users\\ilyak\\.nuget\\packages\\",
-        "outputPath": "C:\\Практика\\ТРПО\\Patterns\\obj\\",
+        "projectPath": "C:\\Users\\st310-11\\Documents\\System\\kirichenko\\Patterns\\Patterns.csproj",
+        "packagesPath": "C:\\Users\\st310-11\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\st310-11\\Documents\\System\\kirichenko\\Patterns\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ilyak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\st310-11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -35,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -64,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
